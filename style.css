@@ -1,0 +1,54 @@
+main {
+	margin: 10px;
+	padding: 5px;
+}
+article#featured {
+	height: 200px;
+}
+.title {
+	font-family: "Helvetica Neue";
+	font-size: 52px;
+}
+#featured {
+	background: #eee;
+	border: 5px black solid;
+	padding: 5px;
+}
+img.float-left {
+	position: relative;
+	float: left;
+}
+article#featured p, article#featured h3 {
+	position: relative;
+	padding-left: 170px;
+}
+article#featured p {
+	top: -60px;
+}
+.featured-article-header {
+	top: -20px;
+	font-size: 35px;
+}
+.featured-metadata {
+	top: -60px;
+	text-transform: lowercase;
+	font-variant: small-caps;
+}
+#regular {
+	height: 200px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+.metadata {
+	text-transform: lowercase;
+	font-variant: small-caps; 
+}
+
+.article-header {
+	top: 15px;
+	font-size: 25px;
+}
+article#regular p, article#regular h3 {
+	position: relative;
+	padding-left: 170px;
+}
